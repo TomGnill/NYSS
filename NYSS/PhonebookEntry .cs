@@ -50,7 +50,7 @@ namespace NYSS_Lab1
                 ret += $"Note: {Note}\n";
             }
 
-            if (DateOfBirth != null)
+            if (DateOfBirth != DateTime.MinValue)
             {
                 ret += $"Date of birth: {(DateOfBirth == DateTime.MinValue ? string.Empty : DateOfBirth.ToShortDateString())}\n";
             }
