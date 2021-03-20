@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace NYSS_Lab1
 {
@@ -43,6 +42,16 @@ namespace NYSS_Lab1
         public void ShowInfo(string phoneNumber)
         {
             Console.WriteLine(Book[long.Parse(phoneNumber)].ToString());
+        }
+
+        public void ShowAllContacts()
+        {
+            int i = 1;
+            foreach (var entry in Book)
+            {
+                Console.WriteLine($"{i}.Имя : {entry.Value.Name} {entry.Value.Surname}, тел. : {entry.Value.PhoneNumber}");
+                i++;
+            }
         }
     }
 }

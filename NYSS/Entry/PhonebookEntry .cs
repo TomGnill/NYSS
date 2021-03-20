@@ -16,6 +16,8 @@ namespace NYSS_Lab1
         public string Position { get; set; }
         public string Note { get; set; }
 
+        public PhonebookEntry() { }
+
         public PhonebookEntry(string surname, string name, string phoneNumber, string country)
         {
             Surname = surname;
@@ -50,7 +52,7 @@ namespace NYSS_Lab1
                 ret += $"Note: {Note}\n";
             }
 
-            if (DateOfBirth != null)
+            if (DateOfBirth != DateTime.MinValue)
             {
                 ret += $"Date of birth: {(DateOfBirth == DateTime.MinValue ? string.Empty : DateOfBirth.ToShortDateString())}\n";
             }
