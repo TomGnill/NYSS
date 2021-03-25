@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NYSS_Lab1
 {
-    class PhonebookEntry
+   public class PhonebookEntry
     {
         public string Surname { get; set; }
         public string Name { get; set; }

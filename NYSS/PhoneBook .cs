@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace NYSS_Lab1
 {
-    class PhoneBook
+   public class PhoneBook
     {
         public Dictionary<long, PhonebookEntry> Book;
 
