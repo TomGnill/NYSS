@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using NYSS_Lab1;
+using NYSS_Lab1.Entry;
 
 namespace Testlab_1
 {

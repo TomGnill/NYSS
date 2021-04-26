@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace NYSS_Lab1
+namespace NYSS_Lab1.Entry
 {
    public class PhonebookEntry
     {

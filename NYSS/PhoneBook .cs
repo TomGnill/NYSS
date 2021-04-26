@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using NYSS_Lab1.Entry;
 
 namespace NYSS_Lab1
 {
